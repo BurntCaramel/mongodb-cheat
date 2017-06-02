@@ -6,14 +6,14 @@
   "scripts": {
     "build": "nwb build-web-app",
     "clean": "nwb clean-app",
-    "start": "nwb serve-web-app --reload",
+    "dev": "nwb serve-web-app --reload",
     "test": "nwb test",
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "elm-webpack-loader": "^4.3.1",
     "nwb": "0.16.x"
   },
   "author": "",

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+html {
+    font-size: 18px;
+    font-size: calc(112.5% + 2 * (100vw - 600px) / 400);
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 100vw;
+    margin: auto;
+    line-height: 1.333333333rem;
+    font-family: system, "-apple-system", "-webkit-system-font", BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Segoe UI", "Roboto", "Arial", "freesans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-hypens: auto; -ms-hypens: auto; hypens: auto;
+}
+
+main {
+    margin: auto;
+    max-width: 30rem;
+}
+main > * {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+h1 {
+    margin: 1.333333333rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    margin: 1.333333333rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+pre {
+    overflow: auto;
+    padding: 0.5rem;
+    width: calc(50vw + (30rem / 2));
+    font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    white-space: pre-wrap;
+    text-indent: -0.5em;
+}
